@@ -297,7 +297,7 @@ namespace Extensions
             {
                 ExtEuclid(m, pairs[i].Item2, out x, out y, out d);
                 k = ((pairs[i].Item1 - a) * x) % pairs[i].Item2;
-                // this is hook
+
                 if (k < 0)
                     k = pairs[i].Item2 + k;
                 a = (a + m * k) % (m * pairs[i].Item2);
@@ -309,31 +309,7 @@ namespace Extensions
         
         }
 
-        /*public static BigInteger ChineseRemainder1(List<Tuple<BigInteger, BigInteger>> pairs)
-        {
-            BigInteger m = 1;
-            BigInteger M;
-            BigInteger y, d;
-            BigInteger res = 0;
-
-            foreach (Tuple<BigInteger, BigInteger> t in pairs)
-            {
-                m *= t.Item2;
-            }
-
-            foreach (Tuple<BigInteger, BigInteger> t in pairs)
-            {
-                Ext.extEuclid(m / t.Item2, t.Item2, out M, out y, out d);
-                if(M<0)
-                    M=M+t.Item2;
-
-                BigInteger test = m / t.Item2;
-                res += t.Item1 * (test) * M;
-            }
-
-            return res % m;
-        }*/
-
+     
 
         public static T[] CreateSubArray<T>(T[] input,int index,int length)
         {
