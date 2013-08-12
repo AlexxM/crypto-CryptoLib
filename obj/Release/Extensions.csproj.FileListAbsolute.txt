@@ -1,0 +1,5 @@
+c:\tempmydoc\visual studio 2010\Projects\Extensions\Extensions\bin\Release\Extensions.dll
+c:\tempmydoc\visual studio 2010\Projects\Extensions\Extensions\bin\Release\Extensions.pdb
+c:\tempmydoc\visual studio 2010\Projects\Extensions\Extensions\obj\Release\Extensions.dll
+c:\tempmydoc\visual studio 2010\Projects\Extensions\Extensions\obj\Release\Extensions.pdb
+C:\tempMyDoc\Visual Studio 2010\Projects\Extensions\Extensions\obj\Release\Extensions.csprojResolveAssemblyReference.cache
